@@ -1,0 +1,98 @@
+.quandiv {
+	width: 90%;
+	font-size: 2em;
+	margin-top:2em;
+}
+.box {
+	display: inline-block;
+	width:600px;
+	margin-top:1em;
+	margin-left:5%;
+}
+.box li{
+	width: 90%;
+}
+.box1 {
+	display: inline-block;
+	vertical-align: top;
+	width:1200px;
+	margin-top:1em;
+	margin-left:5%;
+}
+.box1 li{
+	width: 95%;
+}
+.xianshi {
+	display:none;
+}
+.xianshi1 {
+	width: 100%;
+}
+.kaishi {
+	margin-top: 10px!important;
+}
+.spanmiaoshu {
+	color: #0000ff;
+}
+.spantime {
+	color: #ff0000;
+}
+/* 一个固定的div */
+.divfixed {
+  position: fixed;
+  bottom: 0;
+  right:0;
+  padding:2px;
+  height:auto;
+  width: auto;
+  background-color: #b6d7a8;
+}
+#kongjian {
+	color: #0000ff;
+	font-size: 1em;
+	float:right;
+}
+.litab{height:480px;}
+@media(max-width:2250px) {.box1 {width:1000px;}}
+@media(max-width:2000px) {.box1 {width:800px;}}
+@media(max-width:1800px) {.box1 {width:700px;}}
+@media(max-width:1630px) {.box1 {width:600px;}}
+@media(max-width:1500px) {
+.quandiv {width:100%;}
+.box {margin-left:5%;width:450px;}
+.box1 {margin-left:10px;width:60%;}
+}
+@media(max-width:1450px) {.box1 {width:55%;}}
+@media(max-width:1200px) {.box1 {width:450px;}}
+@media(max-width:950px) {
+.quandiv {
+	font-size: 1.6em;
+	line-height: 2em;
+	margin-top:1em;
+}
+.box {
+	width: 100%;
+	margin:0;
+}
+.box li {
+	width: 90%;
+}
+.box1 {
+	width:100%;
+	margin:0;
+}
+.box1 li{
+	width: 90%;
+}
+.litab{height:400px;}
+.xianshi1 {display:none;} 
+.xianshi {display:block;}
+/* 一个固定的div */
+.divfixed {
+  width:100%;
+  background-color: #C7EDCC;
+}
+}
+@media(max-width:350px) {
+	.litab{height:350px;}
+	}
